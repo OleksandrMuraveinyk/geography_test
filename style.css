@@ -1,0 +1,206 @@
+body {
+	margin: auto;
+	width: 900px;
+	min-height: 700px;
+	background: #DCDCDC;
+	/*border: 1px solid black;*/
+	box-sizing: border-box;
+
+
+}
+
+.header {
+	width: 870px;
+	height: 150px;
+	/*border: 1px solid black;*/
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	text-align: center;
+
+}
+
+.menu {
+	width: 870px;
+	height: 50px;
+	/*border: 1px solid black;*/
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.main {
+	width: 870px;
+	height: auto;
+	/*border: 1px solid black;*/
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+#testStart {
+	width: 250px;
+	height: 45px;
+	border: 1px solid black;
+	display: flex;
+	margin: auto;
+	box-sizing: border-box;
+	outline: none;
+	padding-left: 30px;
+}
+
+#submitButton {
+	
+}
+
+#input {
+	width: 250px;
+	height: 45px;
+	border: 1px solid black;
+	display: flex;
+	margin: 1.5px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	display: inline;
+}
+
+#ok {
+	width: 40px;
+	height: 40px;
+	border: 1px solid black;
+	margin: 2.5px;
+	padding: 5px;
+	font-size: 20px;
+	display: inline;
+	outline: none;
+}
+
+#result {
+	width: 250px;
+	height: 45px;
+	border: 1px solid black;
+	display: flex;
+	margin: auto;
+	background-color: white;
+	box-sizing: border-box;
+	padding-top: 12px;
+	padding-left: 25px;
+}
+
+.continents {
+	/*border: 1px solid black;*/
+	margin: 5px 10px 5px 25px;
+}
+
+.countryBox {
+	/*border: 1px solid black;*/
+	margin: 5px 10px 5px 25px;
+}
+
+.continent {
+	cursor: pointer;
+	margin-bottom: 25px;
+	margin-left: 15px;
+}
+
+/*.modalWindow {
+	width: 600px;
+	height: 400px;
+	border: 1px solid black;
+	margin: auto;
+}
+*/
+.modalWindow span {
+	display: inline;
+	background: #00FFFF;
+	margin: 5px;
+
+}
+
+.advicer {
+	font-size: 10;
+	font-style: italic; 
+	cursor: auto;
+}
+
+
+.sideCapital {
+	width: 280px;
+	height: 360px;
+	border: 1px solid black;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.sideCapital h3 {
+	margin: 10px;
+	display: block;
+}
+
+.sideCapital p {
+	margin: 10px;
+	display: block;
+}
+
+.sideCountry {
+	width: 280px;
+	height: 360px;
+	border: 1px solid black;
+	margin: auto;
+	display: inline-flex;
+}
+
+.sideCountry li {
+	padding: 2px;
+	width: 200px;
+	height: auto;
+	margin-top: 25px;
+	margin-left: 5px;
+	border: 1px solid black;
+	list-style-type: none;
+	text-align: center;
+	cursor: pointer;
+}
+
+.next {
+	width: 100px;
+	height: 40px;
+	margin-top: 120px;
+	margin-left: 250px;
+	 
+}
+
+.testWindow {
+	width: 600px;
+	height: 400px;
+	border: 1px solid black;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#counterWindow {
+	height: 75px;
+	position: absolute;
+	width: 75px;
+	font-size: 40px;
+	font-weight: bolder;
+	color: red;
+	border: 2px solid red;
+	padding-top: 10px;
+	text-align: center;
+	margin-top: 230px;
+	margin-left: 760px;
+	z-index: 1000;
+	box-sizing: border-box;
+}
+
+.countries {
+	cursor: auto;
+}
